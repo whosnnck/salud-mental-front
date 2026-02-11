@@ -22,8 +22,8 @@ export interface CheckinResponse {
   providedIn: 'root',
 })
 export class CheckinService {
-  //private apiUrl = 'http://localhost:3000/api/auth';
-  private apiUrl = 'https://salud-mental-back.vercel.app/api/auth';
+  //private apiUrl = 'http://localhost:3000/api/checkins';
+  private apiUrl = 'https://salud-mental-back.vercel.app/api/checkins';
 
   constructor(private http: HttpClient) {}
 
