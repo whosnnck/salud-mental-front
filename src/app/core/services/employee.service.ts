@@ -37,7 +37,8 @@ export interface EmployeeStatistics {
   providedIn: 'root',
 })
 export class EmployeeService {
-  private apiUrl = 'http://localhost:3000/api/employees';
+  //private apiUrl = 'http://localhost:3000/api/auth';
+  private apiUrl = 'https://salud-mental-back.vercel.app/api/auth';
 
   constructor(private http: HttpClient) {}
 
