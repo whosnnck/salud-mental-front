@@ -1,4 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://salud-mental-api.vercel.app/api',
+  apiUrl: 'https://salud-mental-back.vercel.app/api',
 };
+
