@@ -33,8 +33,8 @@ export interface SupportRequestResponse {
   providedIn: 'root',
 })
 export class SupportService {
-  //private apiUrl = 'http://localhost:3000/api/auth';
-  private apiUrl = 'https://salud-mental-back.vercel.app/api/auth';
+  //private apiUrl = 'http://localhost:3000/api/support';
+  private apiUrl = 'https://salud-mental-back.vercel.app/api/support';
 
   constructor(private http: HttpClient) {}
 
